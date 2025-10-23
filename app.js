@@ -20,7 +20,7 @@
 // console.log(removedMovies)
 // console.log(movies)
 
-let nums = [2, 3, 2]
+let nums = [2, 4, 2]
 let sum = 0
 
 for (let i = 0; i < nums.length; i++) {
@@ -28,3 +28,5 @@ for (let i = 0; i < nums.length; i++) {
 }
 
 console.log(sum)
+
+console.log(nums.includes(4))
